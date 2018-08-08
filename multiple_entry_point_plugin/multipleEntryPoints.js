@@ -24,7 +24,6 @@ class multipleEntryPoints{
 	}
 
 	create_bundle(item, name, compiler){
-		//check support needed for react
 		
 		log.info(chalk.bgGreen.black(`Entry point mounted - ${item}`));
 			compiler.options.entry[name] = item;
