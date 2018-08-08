@@ -1,0 +1,1 @@
+# multiple-entry-point-plugin
